@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 300;
+    color: aliceblue;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    margin-left: 90px;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+nav ul li {
+    display: flex;
+    display: inline-block;
+    list-style: none;
+    margin-right:35px;
+    font-size: 16px;
+    
+
+}
+.trial-btn {
+right:30px ;
+
+}
+
+.container-2 h1 {
+position: absolute;
+width: 650px;
+height: 180px;
+
+/* Semi-bold/80px */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+left: 160px;
+top: 200px;
+
+}
+
+.container-2 p {
+position: absolute;
+width: 511px;
+height: 84px;
+
+/* Regular/18px */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+
+/* gray/400 */
+
+color: #A1A1AA;
+left: 160px;
+top: 455px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover{
+    color: #A1A1AA;
+}
+
+.trial-btn button:hover {
+    background-color: rgb(31, 31, 194);
+    color: white;
+}
+.btn-search:hover{
+    background-color: #FFFFFF;
+    color: black;
+
+}
+
+nav button{
+    border-radius: 20px;
+    padding: 5px;
+    color: whitesmoke;
+}
+button{
+    background-color: black;
+    transition: width 1s;
+}
+.btn-search button {
+    position: absolute;
+ width: 511px;
+ height: 64px;
+ top: 585px;
+ left: 163px;
+ padding: 17px 16px;
+ border-radius: 60px;
+
+}
